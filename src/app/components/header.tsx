@@ -26,7 +26,7 @@ const Header = () => {
       </section>
 
       <section>
-        <ul className=" gap-x-7 text-lg  text-white font-mono hidden md:flex">
+        <ul className=" gap-x-7 text-lg  text-white font-mono hidden lg:flex">
           <li>
             
             <Link href={"#services"}> Services </Link>
@@ -50,17 +50,33 @@ const Header = () => {
         </ul>
 
         <Sheet>
-          <SheetTrigger className=" block md:hidden text-white ">
+          <SheetTrigger className=" block lg:hidden text-white ">
             <AlignJustify size={34} strokeWidth={3} />
           </SheetTrigger>
           <SheetContent className="ul-bg   border-none h-[400px] w-[300px] rounded-2xl mx-auto mt-8">
             <SheetHeader>
               <SheetDescription>
                 <ul className=" nav gap-x-5 text-lg py-7 font-semibold mr-32 text-white">
-                  <li>Services</li>
-                  <li>About</li>
-                  <li>Projects</li>
-                  <li>Contact</li>
+                <li>
+            
+            <Link href={"#services"}> Services </Link>
+          </li>
+          <Link href={"#about"}>
+          
+            <li>About</li>
+          </Link>
+          <Link href={"#projects"}>
+            
+            <li>Projects</li>
+          </Link>
+          <Link href={"#contact"}>
+            
+            <li>Contact</li>
+          </Link>
+          <Link href={"https://resume-m1.vercel.app/"} target="_blank">
+            
+            <li className="hover:border-b  hover:border-solid hover:border-white duration-100">Resume</li>
+          </Link>
                 </ul>
               </SheetDescription>
             </SheetHeader>

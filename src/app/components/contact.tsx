@@ -39,14 +39,14 @@ const Contact = () => {
             from :
           </span>
         </div>
-        <div className="flex justify-center mx-10 flex-wrap my-6">
+        <div className="flex justify-center items-center mx-10 flex-wrap my-6">
           <div>
             {" "}
             {/*github */}
             <Link href={"https://github.com/Tanzeel-Azeem"} target="_blank">
               {" "}
               <Github
-                className="mx-12 hover:text-gray-500 duration-300 hover:scale-125"
+                className=" hover:text-gray-500 duration-300 hover:scale-125"
                 size={30}
                 strokeWidth={2}
               />
@@ -74,7 +74,7 @@ const Contact = () => {
             <Link href={"https://www.instagram.com/tanjoo.69/"} target="_blank">
               {" "}
               <Instagram
-                className="mx-12 hover:text-gray-500 duration-300 hover:scale-125"
+                className=" hover:text-gray-500 duration-300 hover:scale-125"
                 size={30}
                 strokeWidth={2}
               />{" "}

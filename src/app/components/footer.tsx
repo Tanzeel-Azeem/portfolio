@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className='mt-36 '>
         <div className='text-center font-mono '>
-            <span className='text-lg font-medium' > Design and Built by Mohammad Tanzeel .</span>
+            <span className=' text-base0 lg:text-lg font-medium' > Design and Built by Mohammad Tanzeel .</span>
         </div>
     </footer>
   )

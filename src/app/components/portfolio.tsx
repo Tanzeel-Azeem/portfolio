@@ -9,7 +9,7 @@ const Portfolio = () => {
       <div className="text-center mt-60  scroll-smooth">
         <span className="logo text-4xl  font-semibold text-black leading-none">
           {" "}
-          Projects I've Worked On <span className="text-yellow-400">
+          Projects {`I've`} Worked On <span className="text-yellow-400">
             .
           </span>{" "}
         </span>
@@ -154,11 +154,11 @@ const Portfolio = () => {
                 <div className="pb-3">
                   <span className="px-5  text-xl font-semibold">
                     E-Commerce Website for <br />
-                    shopping
+                    <span className="px-5">Shopping</span> 
                   </span>
                 </div>
                 <div>
-                  <span className="px-5">2024</span>
+                  <span className="px-5 relative bottom-5">2024</span>
                 </div>
               </div>
             </div>
@@ -233,11 +233,11 @@ const Portfolio = () => {
               <div className="flex justify-between items-center ">
                 <div className="pb-3">
                   <span className="px-5  text-xl font-semibold">
-                    Food Panda Website Clone
+                    Food Panda Website <br /> <span className="px-5">Clone</span> 
                   </span>
                 </div>
                 <div>
-                  <span className="px-5">2024</span>
+                  <span className="px-5 relative bottom-5">2024</span>
                 </div>
               </div>
             </div>
