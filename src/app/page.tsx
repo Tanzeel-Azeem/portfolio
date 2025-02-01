@@ -9,7 +9,7 @@ import Footer from "./components/footer";
 
 export default async function Home (){
   return (
-    <div className="max-w-screen-2xl mx-auto scroll-smooth">
+    <div className="max-w-screen-2xl mx-auto ">
       <Header />
       <Hero />
       <Service />

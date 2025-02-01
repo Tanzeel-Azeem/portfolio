@@ -45,7 +45,7 @@ const Portfolio = () => {
                     Nike Store Clone
                   </span>
                 </div>
-                <div>
+                <div  className="relative bottom-2">
                   <span className="px-5">2024</span>
                 </div>
               </div>
@@ -79,7 +79,7 @@ const Portfolio = () => {
                     Expertizo Website Clone
                   </span>
                 </div>
-                <div>
+                <div  className="relative bottom-2">
                   <span className="px-5">2024</span>
                 </div>
               </div>
@@ -122,7 +122,7 @@ const Portfolio = () => {
                     Saylani Login Page Clone{" "}
                   </span>
                 </div>
-                <div>
+                <div className="relative bottom-2">
                   <span className="px-5">2024</span>
                 </div>
               </div>
@@ -180,7 +180,7 @@ const Portfolio = () => {
             <div>
               <div className="flex justify-between items-center px-5 py-4">
                 <span className="text-sm font-sans">
-                  Next.Js | Tailwind CSS
+                  Next.Js | CSS
                 </span>
                 <span>
                   <Link
@@ -199,8 +199,8 @@ const Portfolio = () => {
                     <span className="px-5">Next.Js and custom CSS</span>
                   </span>
                 </div>
-                <div>
-                  <span className="px-5">2024</span>
+                <div className="relative bottom-5">
+                  <span className="px-5 ">2024</span>
                 </div>
               </div>
             </div>
@@ -218,7 +218,7 @@ const Portfolio = () => {
               </span>
             </div>
             <div>
-              <div className="flex justify-between items-center px-5 py-4">
+              <div className="flex justify-between items-center px-5 ">
                 <span className="text-sm font-sans">HTML | CSS</span>
                 <span>
                   <Link
@@ -230,14 +230,14 @@ const Portfolio = () => {
                 </span>
               </div>
 
-              <div className="flex justify-between items-center ">
+              <div className="flex justify-between items-center py-4">
                 <div className="pb-3">
                   <span className="px-5  text-xl font-semibold">
                     Food Panda Website <br /> <span className="px-5">Clone</span> 
                   </span>
                 </div>
-                <div>
-                  <span className="px-5 relative bottom-5">2024</span>
+                <div className="relative bottom-5">
+                  <span className="px-5 ">2024</span>
                 </div>
               </div>
             </div>
