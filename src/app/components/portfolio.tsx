@@ -54,6 +54,42 @@ const Portfolio = () => {
         </Link>
 
         {/* 2nd card */}
+        <Link href={"https://laared.vercel.app/"} target="_blank">
+          <div className="parent-pic shadow-2xl border-2 h-[350px] py-5  hover:scale-95 duration-150 my-6 px-4 rounded-2xl">
+            <div className="child-pic">
+              <Image src={"/expertizo.png"} alt="" width={400} height={100} />
+            </div>
+            <div>
+              <div className="flex justify-between items-center px-5 py-4">
+                <span className="text-sm font-sans">next.Js | Tailwind | ShadCn</span>
+                <span>
+                  <Link
+                    href="https://github.com/Tanzeel-Azeem/LaaRed"
+                    target="_blank"
+                  >
+                    <Github className="hover:text-black text-gray-500" />
+                  </Link>
+                </span>
+              </div>
+
+              <div className="flex justify-between items-center ">
+                <div className="pb-3">
+                  <span className="px-5  text-xl font-semibold">
+                    laaReds
+                  </span>
+                </div>
+                <div  className="relative bottom-2">
+                  <span className="px-5">2025</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Link>
+
+
+
+
+        
 
         <Link href={"http://expertizo-clone-69.vercel.app"} target="_blank">
           <div className="parent-pic shadow-2xl border-2 h-[350px] py-5  hover:scale-95 duration-150 my-6 px-4 rounded-2xl">
