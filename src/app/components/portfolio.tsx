@@ -57,11 +57,11 @@ const Portfolio = () => {
         <Link href={"https://laared.vercel.app/"} target="_blank">
           <div className="parent-pic shadow-2xl border-2 h-[350px] py-5  hover:scale-95 duration-150 my-6 px-4 rounded-2xl">
             <div className="child-pic">
-              <Image src={"laareds/.png"} alt="" width={400} height={100} />
+              <Image src={"/laareds.png"} alt="" width={400} height={100} />
             </div>
             <div>
               <div className="flex justify-between items-center px-5 py-4">
-                <span className="text-sm font-sans">next.Js | Tailwind | ShadCn</span>
+                <span className="text-sm font-sans">next.Js | Tailwind CSS| ShadCn</span>
                 <span>
                   <Link
                     href="https://github.com/Tanzeel-Azeem/LaaRed"
