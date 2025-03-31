@@ -6,9 +6,13 @@ import Portfolio from "./components/portfolio";
 import Service from "./components/services";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
+import Head from "next/head";
+
 
 export default async function Home (){
   return (
+   
+
     <div className="max-w-screen-2xl mx-auto ">
       <Header />
       <Hero />
@@ -18,6 +22,8 @@ export default async function Home (){
        <Contact />
        <Footer/>
     </div>
+  
+   
   )
 
 }
