@@ -19,9 +19,10 @@ const Header = () => {
     <header className="hero-bg flex justify-between items-center px-8 md:px-14 lg:px-20 xl:px-32 pt-7  cursor-pointer sticky top-0 z-30 py-3  ">
       <section>
         <Link href={"/"}>
-          <span className="logo text-2xl xl:text-3xl font-semibold text-white ">
+          {/* <span className="logo text-2xl xl:text-3xl font-semibold text-white ">
             Mohammad Tanzeel <span className="text-yellow-400">.</span>
-          </span>
+          </span> */}
+          <Image src={'/logo.png'} alt="" height={20} width={60} />
         </Link>
       </section>
 
